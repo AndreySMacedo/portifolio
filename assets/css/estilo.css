@@ -8,12 +8,23 @@ body {
 }
 .banner {
     height:70vh;
-    background: url('../img/background.png');
+    background: url('../img/banner.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
 }
+.myfoto{
+    height: 80%;
+    width: 50%;
+    border-radius: 50%;
+    align-items: center;
+}
+.myname{
+    text-align: center;
+    text-decoration: #fff;
+}
+
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {  }
 
